@@ -1,0 +1,185 @@
+
+body{
+  /* font-family: "Montserrat"; */
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  text-align: center;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+}
+
+p{
+  color: #8f8f8f;
+}
+
+.big-heading{
+  /* font-family: "Montserrat-Black"; */
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+.section-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.container-fluid{
+  padding: 7% 15%;
+}
+
+/* Sections */
+
+.coloured-section{
+  background-color: #ff4c68;
+  color: #fff;
+}
+.white-section{
+  background-color: #fff;
+}
+
+/* Navigation Bar */
+
+.navbar
+{
+  padding: 0 0 4.5rem;    /* top left-right bottom */
+}
+.navbar-brand
+{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-item
+{
+  padding: 0 18px;
+}
+.nav-link
+{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size: 1.2rem;
+}
+
+/* Download-button */
+
+.Download-button         /*Custom class i.e. not a bootstrap predefines class but a class defind by you */
+{
+  margin: 5% 3% 5% 0;
+}
+
+/* Title */
+
+#title .container-fluid{
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+.title-image
+{
+  width: 60%;
+  transform: rotate(25deg);
+  /* this is a css property where rotate is a function which will rortate the  image in clockwise
+  direction if given =ve angle andif -ve angle is given then it will rotate the image in
+  anticlockwise direction */
+  position: absolute;
+  right: 30%;
+}
+
+/* features */
+
+#features
+{
+
+  position: relative;
+  /* z-index: 1; */
+}
+.feature-box
+{
+  padding: 5%;
+}
+.feautures-icon
+{
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+.feautures-icon:hover
+{
+  color: #ff4c68;
+}
+.feature-heading{
+  font-size: 1.5rem;
+}
+
+ /* Testimonials */
+
+ #testimonials
+ {
+   background-color: #ef8172;    /* ids are preferred over all and there styles are applied preferrably over anything else*/
+ }
+ .testimonial-image
+ {
+   width: 12%;
+   border-radius: 100%;
+   margin: 20px;
+ }
+
+.testimonial-heading
+{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Press */
+
+#press
+{
+ background-color: #ef8172;
+ padding-bottom: 3%;
+}
+.press-logo
+{
+ width: 15%;
+ margin:20px 20px 50px;
+}
+
+/* Pricing */
+
+#pricing{
+padding: 100px;
+}
+.pricing-column{
+  padding: 3% 2%;
+}
+.pricing-title{
+  font-size: 1.5rem;
+}
+.pricing-heading
+{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+ /* Call to Action */
+
+
+/* Footer Section*/
+
+.footer-icon
+{
+   margin: 20px 10px;
+}
+
+@media (max-width:1028px) /*1028px or less */
+{
+  #title
+  {
+    text-align: center;
+  }
+  .title-image
+  {
+    position: static;
+    transform: rotate(0); /*so that the image is straight...to make image straight again we use 0 */
+  }
+}
